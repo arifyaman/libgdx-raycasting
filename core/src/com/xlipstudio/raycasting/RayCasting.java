@@ -21,11 +21,9 @@ public class RayCasting extends BaseG3dTest {
     Array<CollisionObject> collisionObjects = new Array<>();
     Model pointerModel;
     Model terrainModel;
-    Model terrainModel2;
 
     Pointer pointer;
     CollisionObject terrain;
-    CollisionObject terrain2;
     Environment environment;
     DirectionalLight light;
 
@@ -38,7 +36,7 @@ public class RayCasting extends BaseG3dTest {
         cam.lookAt(0, 0, 0);
 
         ModelLoader loader = new ObjLoader();
-        terrainModel = loader.loadModel(Gdx.files.internal("untitled.obj"));
+        terrainModel = loader.loadModel(Gdx.files.internal("terrain.obj"));
         pointerModel = loader.loadModel(Gdx.files.internal("box.obj"));
 
 

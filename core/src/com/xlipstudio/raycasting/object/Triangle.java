@@ -2,7 +2,7 @@ package com.xlipstudio.raycasting.object;
 
 import com.badlogic.gdx.math.Vector3;
 
-public class Triangle  {
+public class Triangle {
     Vector3 p1, p2, p3;
 
 
@@ -20,6 +20,6 @@ public class Triangle  {
 
     @Override
     public String toString() {
-        return "-----\n" + p1.toString() + "\n"+ p2.toString() + "\n"+ p3.toString() + "\n" + "-----\n";
+        return "-----\n" + p1.toString() + "\n" + p2.toString() + "\n" + p3.toString() + "\n" + "-----\n";
     }
 }
